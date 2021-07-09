@@ -1,3 +1,6 @@
+from numpy import vdot
+
+
 print("1. Tarapacá")
 print("2. Antofagasta")
 print("3. Atacama")
@@ -34,51 +37,65 @@ if regiones == 1 : #Muestra la Informacion de la Region de Tarapacá
     if num == 1:
         print("Poblacion = 129999 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[8,8,7,15,19,27]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num == 2:
         print("Poblacion = 1375 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num == 3:
         print("Poblacion = 1583 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num == 4:
         print("Poblacion = 3000 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num == 5:
         print("Poblacion = 223463 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[11,8,10,10,29,38]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num == 6:
         print("Poblacion = 5958 personas")    
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[9,17,21,17,13,9]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion = 17395 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[2,2,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 
@@ -95,65 +112,83 @@ elif regiones == 2:#Muestra la informacion de la Region de Antofagasta
     if num2 == 1:
         print("Poblacion = 	425725 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[49,54,62,86,121,140]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num2 == 2:
         print("Poblacion = 190336 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[12,11,10,10,9,25]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num2 == 3:
         print("Poblacion = 6814 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[1,2,4,6,7,8]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num2 == 4:
         print("Poblacion = 14776 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[11,13,14,18,30,38]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num2 == 5:
         print("Poblacion = 287 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num2 == 6:
         print("Poblacion = 10434 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[1,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num2 == 7:
         print("Poblacion = 1746 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num2 == 8:
         print("Poblacion = 13657 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[3,5,5,5,4,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else: 
         print("Poblacion = 28079 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[1,3,8,4,1,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 
@@ -170,65 +205,83 @@ elif regiones == 3:
     if num3 == 1:
         print("Poblacion = 	5729 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num3 == 2:
         print("Poblacion = 19426 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num3 == 3:
         print("Poblacion = 13164 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num3 == 4:
         print("Poblacion = 171766 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[5,5,5,4,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num3 == 5:
         print("Poblacion = 14358 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num3 == 6:
         print("Poblacion = 7681 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,1]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num3 == 7:
         print("Poblacion = 11264 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,1,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num3 == 8:
         print("Poblacion = 14312 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[4,4,4,2,0,1]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else: 
         print("Poblacion = 57009 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,7,12]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 elif regiones == 4:
@@ -245,107 +298,137 @@ elif regiones == 4:
     if num4 == 1:
         print("Poblacion = 	11791 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 2:
         print("Poblacion =  9546 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 3:
         print("Poblacion =  13884 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 4:
         print("Poblacion =  256735 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[1,2,0,2,3,4]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 5:
         print("Poblacion = 32801 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[13,12,10,7,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 6:
         print("Poblacion =  4450 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 7:
         print("Poblacion = 249656 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[2,1,1,2,4,5]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 8:
         print("Poblacion =  23374 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 9 :
         print("Poblacion = 	32527 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 10 :
         print("Poblacion =  121269 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 11 :
         print("Poblacion =  4675 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 12 :
         print("Poblacion =  12165 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,1,1]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 13 :
         print("Poblacion =  4372 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num4 == 14 :
         print("Poblacion =  29110 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[3,3,3,3,1,1]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  29741 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 elif regiones == 5:
@@ -364,268 +447,344 @@ elif regiones == 5:
     if num5 == 1:
         print("Poblacion = 	15174 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0,1]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 2:
         print("Poblacion =  20663 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,1,0,3]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 3:
         print("Poblacion =  53591 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[1,3,5,6,9,9]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 4:
         print("Poblacion =  16482 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[2,2,3,4,2,1]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 5:
         print("Poblacion =  25357 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[2,2,0,0,4,4]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 6:
         print("Poblacion =  29170 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 7:
         print("Poblacion =  15213 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 8:
         print("Poblacion =  45889 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 9 :
         print("Poblacion = 	17742 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 10 :
         print("Poblacion =  14338 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 11 : 
         print("Poblacion =  19099 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 12 :
         print("Poblacion =  8277 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 13 :
         print("Poblacion =  1033 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 14 :
         print("Poblacion =  25321 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 15 :
         print("Poblacion =  37739 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 16 :
         print("Poblacion =  49931 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 17 :
         print("Poblacion =  26533 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 18 :
         print("Poblacion =  68093 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 19 :
         print("Poblacion =  23490 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 20 :
         print("Poblacion =  19266 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 21 :
         print("Poblacion =  7633 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 22 :
         print("Poblacion =  6201 ersonas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 23 :
         print("Poblacion =  10558 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 24 :
         print("Poblacion =  20071 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 25 :
         print("Poblacion =  17645 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 26 :
         print("Poblacion =  97572 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 27 :
         print("Poblacion =  167085 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 28 :
         print("Poblacion =  36135 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 29 :
         print("Poblacion =  11263 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 30 :
         print("Poblacion =  96761 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 31 :
         print("Poblacion =  20643 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 32 :
         print("Poblacion =  83494 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 33 :
         print("Poblacion =  16367 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 34 :
         print("Poblacion =  11934 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 35 :
         print("Poblacion =  315732 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 36 :
         print("Poblacion =  139310 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num5 == 37 :
         print("Poblacion =  361371 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  7994 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 
@@ -647,366 +806,470 @@ elif regiones == 13:
     if num13 == 1:
         print("Poblacion =  7405 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 2:
         print("Poblacion =  109641 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 3:
         print("Poblacion =  28525 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 4:
         print("Poblacion =  88956 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 5:
         print("Poblacion =  142465 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 6:
         print("Poblacion =  180353 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 7:
         print("Poblacion =  139195 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 8:
         print("Poblacion =  36430 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 9 :
         print("Poblacion = 	172000 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 10 :
         print("Poblacion =  40014 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 11 : 
         print("Poblacion =  206792 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 12 :
         print("Poblacion =  112528 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 13 :
         print("Poblacion =  142065 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 14 :
         print("Poblacion =  40171 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 15 :
         print("Poblacion =  100434 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 16 :
         print("Poblacion =  402433 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 17 :
         print("Poblacion =  122557 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 18 :
         print("Poblacion =  189335 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 19 :
         print("Poblacion =  100252 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 20 :
         print("Poblacion =  126898 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 21 :
         print("Poblacion =  330759 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 22 :
         print("Poblacion =  124076 Personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.plot(ejex,ejey)
         plt.show()
     elif num13 == 23 :
         print("Poblacion =  103865 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 24 :
         print("Poblacion =  104403 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 25 :
         print("Poblacion =  134635 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 26 :
         print("Poblacion =  578605 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 27 :
         print("Poblacion =  14926 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 28 :
         print("Poblacion =  141612 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 29 :
         print("Poblacion =  250192 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 30 :
         print("Poblacion =  74188 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 31 :
         print("Poblacion =  82766 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 32 :
         print("Poblacion =  107803 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 33 :
         print("Poblacion =  101058 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 34 :
         print("Poblacion =  266798 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 35 :
         print("Poblacion =  30433 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 36 :
         print("Poblacion =  157749 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 37 :
         print("Poblacion =  253139 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 38 :
         print("Poblacion =  645909 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 39 :
         print("Poblacion =  254694 personas") 
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 40 :
         print("Poblacion =  136368 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 41 :
         print("Poblacion =  190075 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 42 :
         print("Poblacion =  160847 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 43 :
         print("Poblacion =  334836 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 44 :
         print("Poblacion =  103485 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 45 :
         print("Poblacion =  18644 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 46 :
         print("Poblacion =  133059 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 47 :
         print("Poblacion =  11953 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 48 :
         print("Poblacion =  86510 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 49 :
         print("Poblacion =  503147 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 50 :
         print("Poblacion =  81838 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num13 == 51 :
         print("Poblacion =  21477 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  96774 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 elif regiones == 6:
@@ -1025,233 +1288,299 @@ elif regiones == 6:
     if num6 == 1:
         print("Poblacion =  15925 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 2:
         print("Poblacion =  37696 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 3:
         print("Poblacion =  14096 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 4:
         print("Poblacion =  7831 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 5:
         print("Poblacion =  21263 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 6:
         print("Poblacion =  22700 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 7:
         print("Poblacion =  36504 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 8:
         print("Poblacion =  3114 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 9 :
         print("Poblacion = 	26749 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 10 :
         print("Poblacion =  6765 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 11 : 
         print("Poblacion =  7289 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 12 :
         print("Poblacion =  59913 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 13 :
         print("Poblacion =  14163 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 14 :
         print("Poblacion =  7632 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 15 :
         print("Poblacion =  27462 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 16 :
         print("Poblacion =  19141 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 17 :
         print("Poblacion =  6904 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 18 :
         print("Poblacion =  14624 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 19 :
         print("Poblacion =  13299 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 20 :
         print("Poblacion =  6349 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 21 :
         print("Poblacion =  11848 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 22 :
         print("Poblacion =  14952 Personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 23 :
         print("Poblacion =  20743 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 24 :
         print("Poblacion =  17882 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 25 :
         print("Poblacion =  9164 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 26 :
         print("Poblacion =  3531 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 27 :
         print("Poblacion =  13877 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 28 :
         print("Poblacion =  265211 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 29 :
         print("Poblacion =  63710 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 30 :
         print("Poblacion =  30371 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 == 31 :
         print("Poblacion =  78642 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num6 ==32:
         print("Poblacion =  50617 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  41096 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 
@@ -1270,212 +1599,272 @@ elif regiones == 7:
     if num7 == 1:
         print("Poblacion =  44143 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 2:
         print("Poblacion =  9331 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.plot(ejex,ejey)
         plt.show()
     elif num7 == 3:
         print("Poblacion =  22565 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 4:
         print("Poblacion =  50348 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 5:
         print("Poblacion =  9426 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 6:
         print("Poblacion =  163626 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 7:
         print("Poblacion =  4206 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 8:
         print("Poblacion =  10222 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 9 :
         print("Poblacion = 	6989 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 10 :
         print("Poblacion =  101073 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 11 : 
         print("Poblacion =  32810 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 12 :
         print("Poblacion =  60000 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 13 :
         print("Poblacion =  49800 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 14 :
         print("Poblacion =  44544 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 15 :
         print("Poblacion =  9083 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 16 :
         print("Poblacion =  8092 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 17 :
         print("Poblacion =  8601 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 18 :
         print("Poblacion =  11248 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 19 :
         print("Poblacion =  21071 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 20 :
         print("Poblacion =  14753 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 21 :
         print("Poblacion =  16170 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 22 :
         print("Poblacion =  19469 Personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 23 :
         print("Poblacion =  46292 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 24 :
         print("Poblacion =  49451 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 25 :
         print("Poblacion =  9959 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 26 :
         print("Poblacion =  236724 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 27 :
         print("Poblacion =  30850  personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 28 :
         print("Poblacion =  4381 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num7 == 29 :
         print("Poblacion =  17512  personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  19200 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 
@@ -1493,149 +1882,191 @@ elif regiones == 16:
     if num16 == 1:
         print("Poblacion = 22607 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 2:
         print("Poblacion = 198624 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 3:
         print("Poblacion = 33827 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 4:
         print("Poblacion = 5275 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 5:
         print("Poblacion = 	16845 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 6:
         print("Poblacion =  28375 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 7:
         print("Poblacion =  12334 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 8:
         print("Poblacion =  5414 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 9 :
         print("Poblacion = 	11567 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 10 :
         print("Poblacion =  8639 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 11 : 
         print("Poblacion =  11880 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 12 :
         print("Poblacion =  4940 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 13 :
         print("Poblacion =  18777 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 14 :
         print("Poblacion =  12192 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 15 :
         print("Poblacion =  6261 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 16 :
         print("Poblacion =  56252 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 17 :
         print("Poblacion =  4654 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 18 :
         print("Poblacion =  16624 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 19 :
         print("Poblacion =  12172 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num16 == 20 :
         print("Poblacion =  5696 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  18596 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 elif regiones == 8:
@@ -1654,233 +2085,299 @@ elif regiones == 8:
     if num8 == 1:
         print("Poblacion =  6775 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 2:
         print("Poblacion =  4306 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 3:
         print("Poblacion =  38679 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 4:
         print("Poblacion =  30725 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 5:
         print("Poblacion =  37003 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 6:
         print("Poblacion =  91180 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 7:
         print("Poblacion =  238092 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 8:
         print("Poblacion =  6330 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 9 :
         print("Poblacion = 	125829 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 10 :
         print("Poblacion =  33892 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 11 : 
         print("Poblacion =  11841 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 12 :
         print("Poblacion =  97273 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 13 :
         print("Poblacion =  26201 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 14 :
         print("Poblacion =  23873 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 15 :
         print("Poblacion =  27100 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 16 :
         print("Poblacion =  22524 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 17 :
         print("Poblacion =  218515 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 18 :
         print("Poblacion =  45750 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 19 :
         print("Poblacion =  31041 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 20 :
         print("Poblacion =  27944 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 21 :
         print("Poblacion =  10429 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 22 :
         print("Poblacion =  49865 Personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 23 :
         print("Poblacion =  4179 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 24 :
         print("Poblacion =  10032 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 25 :
         print("Poblacion =  145906 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 26 :
         print("Poblacion =  3611 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 27 :
         print("Poblacion =  14592 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 28 :
         print("Poblacion =  14779 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 29 :
         print("Poblacion =  158345 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 30 :
         print("Poblacion =  11019 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 == 31 :
         print("Poblacion =  58729 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num8 ==32:
         print("Poblacion =  15205 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  22132 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 elif regiones == 9:
@@ -1899,226 +2396,290 @@ elif regiones == 9:
     if num9 == 1:
         print("Poblacion =  56058 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 2:
         print("Poblacion =  25486 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 3:
         print("Poblacion =  12341 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 4:
         print("Poblacion =  26148 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 5:
         print("Poblacion =  18055 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 6:
         print("Poblacion =  18178 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 7:
         print("Poblacion =  7802 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 8:
         print("Poblacion =  8458 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 9 :
         print("Poblacion = 	25446 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 10 :
         print("Poblacion =  12633 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 11 : 
         print("Poblacion =  15148 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 12 :
         print("Poblacion =  40746 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 13 :
         print("Poblacion =  24739 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 14 :
         print("Poblacion =  11049 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 15 :
         print("Poblacion =  7517 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 16 :
         print("Poblacion =  10050 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 17 :
         print("Poblacion =  6265 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 18 :
         print("Poblacion =  33777 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 19 :
         print("Poblacion =  82110 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 20 :
         print("Poblacion =  7223 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 21 :
         print("Poblacion =  26096 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 22 :
         print("Poblacion =  29782 Personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 23 :
         print("Poblacion =  12188 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 24 :
         print("Poblacion =  10833 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 25 :
         print("Poblacion =  12793 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 26 :
         print("Poblacion =  302931 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 27 :
         print("Poblacion =  15786 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 28 :
         print("Poblacion =  10055 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 29 :
         print("Poblacion =  19314 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 30 :
         print("Poblacion =  35467 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num9 == 31 :
         print("Poblacion =  30766 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  59103 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 
@@ -2137,212 +2698,272 @@ elif regiones == 10:
     if num10 == 1:
         print("Poblacion =  42458 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 2:
         print("Poblacion =  36744 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 3:
         print("Poblacion =  47607 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 4:
         print("Poblacion =  5020 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 5:
         print("Poblacion =  16013 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 6:
         print("Poblacion =  4006 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 7:
         print("Poblacion =  4066 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 8:
         print("Poblacion =  15069 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 9 :
         print("Poblacion = 	12656 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 10 :
         print("Poblacion =  20223 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 11 : 
         print("Poblacion =  2806 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 12 :
         print("Poblacion =  9525 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 13 :
         print("Poblacion =  18621 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 14 :
         print("Poblacion =  17817 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 15 :
         print("Poblacion =  14894 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 16 :
         print("Poblacion =  173410 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 17 :
         print("Poblacion =  1827 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 18 :
         print("Poblacion =  269398 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 19 :
         print("Poblacion =  9192 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 20 :
         print("Poblacion =  48620 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 21 :
         print("Poblacion =  4201 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 22 :
         print("Poblacion =  21080 Personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 23 :
         print("Poblacion =  11787 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 24 :
         print("Poblacion =  5543 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 25 :
         print("Poblacion =  29309 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 26 :
         print("Poblacion =  8783 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 27 :
         print("Poblacion =  8298 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 28 :
         print("Poblacion =  14275 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num10 == 29 :
         print("Poblacion =  7639 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  10553 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 
@@ -2359,72 +2980,92 @@ elif regiones == 11:
     if num11 == 1:
         print("Poblacion =  25002 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 2:
         print("Poblacion =  5121 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 3:
         print("Poblacion =  5828 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 4:
         print("Poblacion =  3685 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 5:
         print("Poblacion =  61210 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 6:
         print("Poblacion =  1599 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 7:
         print("Poblacion =  920 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 8:
         print("Poblacion =  661 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num11 == 9 :
         print("Poblacion = 	2699 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion = 	572 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 elif regiones == 12:
     print("Magallanes tiene una poblacion de 178362 personas en 11 comunas")
@@ -2439,79 +3080,101 @@ elif regiones == 12:
     if num12 == 1:
         print("Poblacion =  137 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 2:
         print("Poblacion =  1983 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 3:
         print("Poblacion =  264 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 4:
         print("Poblacion =  23782 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 5:
         print("Poblacion =  7323 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 6:
         print("Poblacion =  694 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 7:
         print("Poblacion =  141984 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 8:
         print("Poblacion =  211 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 9 :
         print("Poblacion = 	681 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num12 == 10:
         print("Poblacion =  282 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion = 	1021 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 elif regiones == 14:
@@ -2527,92 +3190,116 @@ elif regiones == 14:
     if num14 == 1:
         print("Poblacion =  5447 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 2:
         print("Poblacion =  15261 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 3:
         print("Poblacion =  39538 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 4:
         print("Poblacion =  10292 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 5:
         print("Poblacion =  17652 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 6:
         print("Poblacion =  20518 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 7:
         print("Poblacion =  7389 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 8:
         print("Poblacion =  23250 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 9 :
         print("Poblacion = 	20798 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 10:
         print("Poblacion =  35991 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num14 == 11:
         print("Poblacion =  32925 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion = 	176774 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
 
 else:
     print("Arica tiene una poblacion de 252110 personas en 4 comunas")
-    lista_comrios  = ["1. Arica ","2. Camarones","3. General Lagos","4. Putre"]
-    print(lista_comrios)
+    lista_comarica  = ["1. Arica ","2. Camarones","3. General Lagos","4. Putre"]
+    print(lista_comarica)
     num15 =input("Escoja un numero de las Comunas de Arica:")
     while num15.isnumeric() == False or int(num15) > 4:
         print("Ese no es un numero de alguna comuna de Arica")
@@ -2621,28 +3308,36 @@ else:
     if num15 == 1:
         print("Poblacion =  247552 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num15 == 2:
         print("Poblacion =  1233 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     elif num15 == 3:
         print("Poblacion =  810 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()
     else:
         print("Poblacion =  2515 personas")
         import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
+        ejex=[0,0,0,0,0]
+        ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
+        plt.xlabel('Junio y Julio 2020')
+        plt.ylabel('Contagiados del Dia')
         plt.show()  
