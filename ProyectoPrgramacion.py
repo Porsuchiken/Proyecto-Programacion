@@ -555,7 +555,7 @@ elif regiones == 5:
     elif num5 == 13 :
         print("Poblacion =  1033 personas")
         import matplotlib.pyplot as plt
-        ejex=[,0]
+        ejex=[0,0,0,0,0,0]
         ejey=[18,21,25,28,2,5]
         plt.plot(ejex,ejey)
         plt.xlabel('Junio y Julio 2020')
