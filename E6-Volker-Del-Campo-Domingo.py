@@ -1,5 +1,5 @@
 from numpy import vdot
-
+#Domingo Volker Del Campo 20846970-3 Elección 6
 
 print("1. Tarapacá")
 print("2. Antofagasta")
