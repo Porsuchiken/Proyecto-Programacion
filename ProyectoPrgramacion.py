@@ -16,17 +16,17 @@ print("15. Arica y Parinacota")
 print("16. Nuble")
 # Muestra las Regiones 
 
-regiones = input("Ingrese el número o nombre de la Region que desee: ")
+regiones = input("Ingrese el número la Region que desee: ")
 while regiones.isnumeric()!= True or int(regiones) > 16 :
-    print("Ese no es un número o nombre de Region")
-    regiones = input("Ingrese el número o nombre de la Region:")
+    print("Ese no es un número Region")
+    regiones = input("Ingrese el número de la Region:")
 regiones = int(regiones)
 
 if regiones == 1 : #Muestra la Informacion de la Region de Tarapacá
     print("Tarapacá tiene una poblacion de 382773 personas en 7 comunas")
     lista_comtarapaca = ["1. Alto Hospicio","2. Camina","3. Colchane","4. Huara","5. Iquique", "6. Pica","7. Pozo almonte"]
     print(lista_comtarapaca)
-    num =input("Escoja una Comuna de Tarapacá:")
+    num =input("Escoja un numero de las Comunas de Tarapacá:")
     while num.isnumeric() == False or int(num) > 7:
         print("Ese no es un numero de alguna comuna de Tarapacá")
         num = input("Ingrese nuevamente un numero de comuna:")
@@ -52,7 +52,7 @@ elif regiones == 2:#Muestra la informacion de la Region de Antofagasta
     lista_comantofagasta = ["1. Antofagasta","2. Calama","3. Maria Elena","4. Mejillones","5. Ollague", "6. San Pedro de Atacama",
     "7. Sierra Gordam","8. Taltal","9.Tocopilla"]
     print(lista_comantofagasta)
-    num2 =input("Escoja una Comuna de Antofagasta:")
+    num2 =input("Escoja un numero de las Comunas de Antofagasta:")
     while num2.isnumeric() == False or int(num2) > 9:
         print("Ese no es un numero de alguna comuna de Antofagasta")
         num2 = input("Ingrese nuevamente un numero de comuna:")
@@ -82,7 +82,7 @@ elif regiones == 3:
     lista_comatacama = ["1. Alto  del Carmen","2. Caldera","3. Chanaral","4. Copiapo","5. Diego de Almagro", "6. Freirina,",
     "7. Huasco","8. Tierra amarilla","9.Vallenar"]
     print(lista_comatacama)
-    num3 =input("Escoja una Comuna de Atacama:")
+    num3 =input("Escoja un numero de las Comunas de Atacama:")
     while num3.isnumeric() == False or int(num3) > 9:
         print("Ese no es un numero de alguna comuna de Atacama")
         num3 = input("Ingrese nuevamente un numero de comuna:")
@@ -112,7 +112,7 @@ elif regiones == 4:
     "7. La Serena","8. Los Vilos","9. Monte Patria","10. Ovalle", "11. Paiguano", "12. Punitaqui","13. Rio Hurtado","14. Salamanca",
     "15. Vicuna"]
     print(lista_comcoquimbo)
-    num4 =input("Escoja una Comuna de Coquimbo:")
+    num4 =input("Escoja un numero de las Comunas de Coquimbo:")
     while num4.isnumeric() == False or int(num4) > 15:
         print("Ese no es un numero de alguna comuna de Coquimbo")
         num4 = input("Ingrese nuevamente un numero de comuna:")
@@ -160,11 +160,11 @@ elif regiones == 5:
     "24. Punchucavi","25. Putaendo", "26. Quillota","27. Quilpue","28. Quintero","29. Rinconada","30. San Antonio","31. San Sebastian",
     "32. San Felipe","33. Santa Maria","34. Santo Domingo","35. Valparaiso","36. Villa Alemana","37. Viña del Mar","38. Zapallar"]
     print(lista_comvalparaiso)
-    num5 =input("Escoja una Comuna de valparaiso:")
+    num5 =input("Escoja un numero de las Comunas de Valparaiso:")
     while num5.isnumeric() == False or int(num5) > 38:
-        print("Ese no es un numero de alguna comuna de valparaiso")
+        print("Ese no es un numero de alguna comuna de Valparaiso")
         num5 = input("Ingrese nuevamente un numero de comuna:")
-    num5 = int(num4)
+    num5 = int(num5)
     if num5 == 1:
         print("Poblacion = 	15174 personas")
     elif num5 == 2:
@@ -253,7 +253,7 @@ elif regiones == 13:
     "40. Quinta Normal","41. Recoleta", "42. Renca", "43. San Bernardo", "44. San Joaquin", "45. San Jose de Maipo", "46. San Miguel",
     "47. San Pedro","48. San Ramon","49. Santiago","50.	Talagante","51. Tiltil","52. Vitacura"]
     print(lista_commetropolitana)
-    num13 =input("Escoja una Comuna de Metropolitana:")
+    num13 =input("Escoja un numero de las Comunas de Metropolitana:")
     while num13.isnumeric() == False or int(num13) > 52:
         print("Ese no es un numero de alguna comuna de Metropolitana")
         num13 = input("Ingrese nuevamente un numero de comuna:")
@@ -371,7 +371,7 @@ elif regiones == 6:
     "24. Pichilemu","25. Placilla", "26. Pumanque","27. Quinta de Tilcoco","28. Rancagua ","29. Rengo","30. Requinoa","31. San Fernando ",
     "32. San Vicente","33. Santa Cruz"]
     print(lista_comhiggins)
-    num6 =input("Escoja una Comuna de O'Higgins:")
+    num6 =input("Escoja un numero de las Comunas de O'Higgins:")
     while num6.isnumeric() == False or int(num6) > 33:
         print("Ese no es un numero de alguna comuna de O'Higgins")
         num6 = input("Ingrese nuevamente un numero de comuna:")
@@ -451,7 +451,7 @@ elif regiones == 7:
     "15. Pelarco", "16. Pelluhue","17. Pencahue","18. Rauco", "19. Retiro", "20. Rio Claro","21. Romeral","22. Sagrada Familia ",
     "23. San Clemente","24. San Javier","25. San Rafael	", "26. Talca","27. Teno","28. 	Vichuquen","29. Villa Alegre","30. Yerbas Buenas"]
     print(lista_commaule)
-    num7 =input("Escoja una Comuna de Maule:")
+    num7 =input("Escoja un numero de las Comunas de Maule:")
     while num7.isnumeric() == False or int(num7) > 30:
         print("Ese no es un numero de alguna comuna de Maule")
         num7 = input("Ingrese nuevamente un numero de comuna:")
@@ -524,7 +524,7 @@ elif regiones == 16:
     "7. El Carmen","8.  Ninhue","9. Niquen","10. Pemuco", "11. Pinto", "12. Portezuelo","13. Quillon ","14. Quirihue ",
     "15. Ranquil", "16. San Carlos ","17. San Fabian ","18. San Ignacio", "19. San Nicolas", "20. 	Treguaco ","21. Yungay"]
     print(lista_comnuble)
-    num16 =input("Escoja una Comuna de Nuble:")
+    num16 =input("Escoja un numero de las Comunas de Nuble:")
     while num16.isnumeric() == False or int(num16) > 21:
         print("Ese no es un numero de alguna comuna de Nuble")
         num16 = input("Ingrese nuevamente un numero de comuna:")
@@ -580,7 +580,7 @@ elif regiones == 8:
     "24. Quilleco","25. San Pedro de la Paz", "26. San Rosendo","27.  Santa Barbara ","28.  Santa Juana","29. Talcahuano","30. 	Tirua","31. Tome  ",
     "32. Tucapel ","33. Yumbel "]
     print(lista_combiobio)
-    num8 =input("Escoja una Comuna de Biobio:")
+    num8 =input("Escoja un numero de las Comunas del Biobio:")
     while num8.isnumeric() == False or int(num8) > 33:
         print("Ese no es un numero de alguna comuna de Biobio")
         num8 = input("Ingrese nuevamente un numero de comuna:")
@@ -660,7 +660,7 @@ elif regiones == 9:
     "24. Renaico","25.   Saavedra  ", "26.  Temuco","27.  Teodoro Schmidt  ","28.  Tolten ","29. Traiguen","30. Victoria","31.  Vilcun ",
     "32. Villarrica "]
     print(lista_comaraucania)
-    num9 =input("Escoja una Comuna de Araucanía:")
+    num9 =input("Escoja un numero de las Comunas de Araucanía:")
     while num9.isnumeric() == False or int(num9) > 32:
         print("Ese no es un numero de alguna comuna de Araucanía")
         num9 = input("Ingrese nuevamente un numero de comuna:")
@@ -738,9 +738,9 @@ elif regiones == 10:
     "15. Maullin ", "16.  Osorno ","17.  Palena ","18.  Puerto Montt ", "19. Puerto Octay ", "20. 	Puerto Varas","21. Puqueldon","22. Purranque","23. Puyehue",
     "24. Queilen","25. Quellon ", "26.  Quemchi","27.  Quinchao","28.  	Rio Negro ","29. San Juan de la Costa","30. San Pablo "]
     print(lista_comlagos)
-    num10 =input("Escoja una Comuna de Araucanía:")
+    num10 =input("Escoja un numero de las Comunas de Los Lagos:")
     while num10.isnumeric() == False or int(num10) > 30:
-        print("Ese no es un numero de alguna comuna de Araucanía")
+        print("Ese no es un numero de alguna comuna de Los Lagos")
         num10 = input("Ingrese nuevamente un numero de comuna:")
     num10 = int(num10)
     if num10 == 1:
@@ -810,7 +810,7 @@ elif regiones == 11:
     lista_comlagos  = ["1. Aysen ","2. Chile Chico ","3. Cisnes ","4. Cochrane","5. Coyhaique", "6. Guaitecas",
     "7. Lago Verde","8. OHiggins","9. Rio Ibanez","10. Tortel"]
     print(lista_comlagos)
-    num11 =input("Escoja una Comuna de Aysen:")
+    num11 =input("Escoja un numero de las  Comunas de Aysen:")
     while num11.isnumeric() == False or int(num11) > 10:
         print("Ese no es un numero de alguna comuna de Aysen")
         num11 = input("Ingrese nuevamente un numero de comuna:")
@@ -840,7 +840,7 @@ elif regiones == 12:
     lista_commagallanes  = ["1. Antartica ","2. Cabo de Hornos ","3. 	Laguna Blanca","4. Natales","5. Porvenir", "6. Primavera",
     "7.  Punta Arenas  ","8. 	Rio Verde ","9. San Gregorio","10. Timaukel", "11. Torres del Paine"]
     print(lista_commagallanes)
-    num12 =input("Escoja una Comuna de Magallanes :")
+    num12 =input("Escoja un numero de las Comunas de Magallanes :")
     while num12.isnumeric() == False or int(num12) > 11:
         print("Ese no es un numero de alguna comuna de Magallanes ")
         num12 = input("Ingrese nuevamente un numero de comuna:")
@@ -873,7 +873,7 @@ elif regiones == 14:
     lista_comrios  = ["1. Corral ","2.  Futrono","3. 	La Union	","4. 	Lago Ranco","5. 	Lanco", "6. Los Lagos",
     "7.  Mafil  ","8. Mariquina	","9. Paillaco","10. Panguipulli", "11. Rio Bueno","12. Valdivia"]
     print(lista_comrios)
-    num14 =input("Escoja una Comuna de Los Rios:")
+    num14 =input("Escoja un numero de las Comunas de Los Rios:")
     while num14.isnumeric() == False or int(num14) > 12:
         print("Ese no es un numero de alguna comuna de Los Rios")
         num14 = input("Ingrese nuevamente un numero de comuna:")
@@ -907,7 +907,7 @@ else:
     print("Arica tiene una poblacion de 252110 personas en 4 comunas")
     lista_comrios  = ["1. Arica ","2.  Camarones","3. 	 General Lagos	","4. 	Putre "]
     print(lista_comrios)
-    num15 =input("Escoja una Comuna de Los Arica:")
+    num15 =input("Escoja un numero de las Comunas de Arica:")
     while num15.isnumeric() == False or int(num15) > 4:
         print("Ese no es un numero de alguna comuna de Arica")
         num15 = input("Ingrese nuevamente un numero de comuna:")
